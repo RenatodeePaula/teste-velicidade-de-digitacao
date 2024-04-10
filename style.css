@@ -1,0 +1,85 @@
+* {
+    font-family: Arial;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1.8rem;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 0.8rem;    
+}
+
+#instrucoes {
+    font-size: 1rem;
+    text-align: justify;
+}
+
+#texto {
+    width: 100%;
+    background-color: #f3f3f3;
+    padding: 1rem;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+#entrada {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    margin-bottom: 1rem;
+}
+
+#resultado {
+    margin-bottom: 0.5rem;
+    text-align: center;
+   
+} 
+
+#reiniciar {
+    margin: 0.8rem auto;
+}
+
+button {
+    background-color: #007bff;
+    border: none;
+    padding: 0.6rem 1.1rem;
+    color: #fff;
+    margin: 0 auto;
+    cursor: pointer;  
+    transition:  0.3s; 
+
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#alternar-tema {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+  
+/* ===========Tema Claro e Escuro================ */
+
+.claro {
+    background-color: #fff;
+    color: #333;
+}
+
+.escuro {
+    background-color: #333;
+    color: #fff;
+}
+
+.escuro #texto {
+    color: #333;
+}
