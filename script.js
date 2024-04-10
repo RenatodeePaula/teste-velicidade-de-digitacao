@@ -58,15 +58,23 @@ function adicionarHistorico(textoDigitado, tempoGasto) {
 
     historico.appendChild(itemHistorico);
 }
+
+function reiniciarTeste() {
+    entrada.value = "";
+    resultado.textContent = "";
+    novoTexto();
+    localStorage.setItem("testeEmAndamento", false);
+    historico.innerHTML = "";
+};
+
 // =============Eventos============
-
-
 entrada.addEventListener("keyup", atualizarTeste);
+
+reiniciar.addEventListener("click", reiniciarTeste);
 
 // Aternar tema
 alternarTema.addEventListener("click", () => {
     body.classList.toggle('escuro');
-
 });
 
 novoTexto();
