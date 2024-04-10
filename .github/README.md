@@ -1,7 +1,7 @@
 <h1 align="center">Teste de velocidade de digitação</h1>
 
 <p align="center">
-#Projeto feito para estudo de JavaScript puro, um teste para ver a velocidade da digitação de texto do usuário, com botão de mudar tema para claro e escuro e botão para reninicar o desafio.<br/>
+#Projeto feito para estudo de JavaScript puro, um teste para ver a velocidade da digitação de texto do usuário, históricos com o tempo e o texto digitado, botão de mudar tema para claro e escuro e botão para reninicar o desafio.<br/>
 </p>
 
 <p align="center">
